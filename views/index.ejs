@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<% include par/head %>
+<% include par/nav %>
+  <body>
+<div class="container-fluid">
+<div class="row">
+
+<% include par/2side %>
+<div class="well col-md-8" style="background:lightgray;color:black">
+    <h2>Add React in One Minute</h2>
+    <p>This page demonstrates using React with no build tooling.</p>
+    <p>React is loaded as a script tag.</p>
+
+    <!-- We will put our React component inside this div. -->
+    <div id="like_but"></div>
+
+    <div id="root"></div>
+    <!-- Load our React component. -->
+    <script src="js/like.js"></script>
+    <script src="js/tick.js"></script>
+
+</div>
+
+<% include par/2side %>
+</div>
+</div>
+
+<% include par/foot%>
+  </body>
+</html>
